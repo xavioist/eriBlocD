@@ -16,14 +16,13 @@ testdata = [
     ("1sdfWWQ0 OiLkd636 Eddw", "1sdfWWQ0 Lkd636 ddw"),
 ]
 
-
-"""def remove_vocals(x):
+def remove_vocals(x):
     forbidden_letters = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
     res = ""
     for elem in x:
         if elem not in forbidden_letters:
             res = res + elem
-    return res"""
+    return res
 
 
 ###INSERT STUDENT FUNCTION HERE
