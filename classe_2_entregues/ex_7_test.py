@@ -1,7 +1,7 @@
 import os
 import pytest
 import string
-import funcions
+import classe_2_exercicis.funcions as funcions
 
 """Test ex_07 (difícil): Fes un programa que xifri un missatge (str) segons una clau (int) que tu li proporcionis.
 El xifrat més simple d'aquest estil és el xifrat romà ( o xifrat Cèsar):

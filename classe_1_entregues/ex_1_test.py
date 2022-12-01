@@ -11,7 +11,6 @@ operacions de Foldl i Foldr
         func([1,2,3]) -> 6
         
         
-        NOTA EMNTAL_: HAGAMOS EL FACTORIAL Y ALE. ESTO OPCIONAL
     """
 
 

@@ -1,4 +1,4 @@
-import funcions
+import classe_2_exercicis.funcions as funcions
 
 """Exercici de imports:
 Crea un mòdul que es digui "funcions". Crea una funció allà que et sumi dos números.

@@ -145,6 +145,8 @@ PISTA: Mira què fa la funció pop() que actua sobre llistes.
 """Fes una funció que iteri sobre una llista de nombres enters i imprimeixi "True" 
 si la llista conté dos o més elements iguals.
 
+PISTA: et pot ajudar fer servir els condicionals if, else.
+
 i.e: lst = [1,1,3,3,4,6,7] #True
     lst2 = [1,2,3,4,5,6] #False
 """
