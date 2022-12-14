@@ -73,11 +73,20 @@ email, direcció i telefon.
 # Exercici 2
 
 """ Amb el diccionari de l'exercici 1, canvia el valor del número de telèfon i el NIU
-de l'estudiant fent servir un dels mètodes propis dels diccionaris.
+de l'estudiant fent servir un dels mètodes propis dels diccionaris. (https://www.w3schools.com/python/python_ref_dictionary.asp)
 """
 
 # Exercici 3
 
 """ Fes un diccionari anidat que contingui les fitxes de tres alumnes amb les mateixes
 claus que a l'exercici 1.
+"""
+
+# Exercici 4
+
+""" Fes un programa que et permeti iterar sobre les claus i valors un diccionari de python mitjançant un loop for. 
+PISTA: volem iterar sobre les claus i sobre els valors, per tant necessitarem dos iteradors. Un diccionari en sí mateix no és iterable,
+així que necessitem obtenir els seus ITEMS amb una funció pròpia. i.e:
+
+for key, value in ...
 """
