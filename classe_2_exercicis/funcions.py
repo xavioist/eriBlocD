@@ -8,7 +8,7 @@ def fancy_suma(x, y):
     Returns:
         int: suma formatada de x i y
     """
-    return f"La suma de {x} i de {y} es {x+y}"
+    return print("La suma de", x, "i", y, "és:", x + y)
 
 
 def foldl_str(x):
