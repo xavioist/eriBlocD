@@ -16,4 +16,4 @@ x_str = "7"
 y_str = "99"
 
 fx.fancy_suma(x, y)
-fx.fancy_suma(x_str, y_str)
+fx.fancy_suma(int(x_str), int(y_str))
