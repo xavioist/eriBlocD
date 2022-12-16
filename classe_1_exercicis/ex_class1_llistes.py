@@ -156,3 +156,14 @@ i.e: lst = [1,1,3,3,4,6,7] #True
 """ Fes un programa que, donada una llista, et retorni una llista amb dos elements que siguin la llista partida per la meitat.
 Has d'obtenir una llista anidada. i.e: lst_ex8 = [1,2,3,4,5,6,7] -> result = [[1,2,3],[4,5,6,7]]
 """
+
+# Exercici 9
+
+""" Fes un programa que iteri sobre una llista de strings i borri les entrades que estiguin buides.
+i.e: ["So", "it", "", "goes"] -> ["So", "it","goes"]
+"""
+
+# Exercici 10
+
+""" Fes un programa que, donada una llista de nombres positius i negatius, et retorni la llista sense nombres negatius.
+"""
