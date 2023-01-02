@@ -58,3 +58,20 @@ amb tots els valors de la primera i la segona llista. i.e: el resultat final ha 
 """ Fent servir bucles for, condicionals i tantes variables com necessitis, fes una funció que donada la llista ex8_list = [3,6,2,5,7,4,1] et retorni
 una llista ordenada.
 """
+
+# Exercici 9
+
+""" Fes un programa que, donada una string concreta (per exemple: str_ex9 = "Eyjafjallajökull") et retorni les lletres que es troben en les
+posicions parelles de la paraula (0,2,4,...)
+"""
+
+# Exercici 10
+
+""" Fes un programa que trobi si el primer i l'últim element d'una llista són iguals
+"""
+
+# Exercici 11
+
+""" Fes un programa que et digui si el número o la paraula que introdueixes és un palíndrom (que es llegeix igual de dreta a esquerra que de esquerra a dreta)
+i.e: "cita'l a l'atic", 1221, "pep", etc...
+"""
