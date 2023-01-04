@@ -7,7 +7,6 @@ un nivell d'aigua superior a 12.3 metres cúbics. També has de tenir en compte
 que l'arxiu té una capcelera que has d'ometre sense modificar l'arxiu.
 Tot seguit, fes un gràfic de barres en matplotlib, títols als eixos
 de les X (anys) i de les Y (volum aigua (m^3)) i amb el títol "Crescudes del riu Nil".
-
 """
 # Solució:
 
