@@ -1,3 +1,5 @@
 # eriBlocD
 
-Tests i exercicis del bloc D d'ERI
+Programa del bloc D de Experimentació i Recursos Informàtics de la UAB al grau de Química.
+
+
