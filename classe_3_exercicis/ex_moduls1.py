@@ -20,6 +20,13 @@ x = [foo[i][0] for i in range(len(foo))]
 
 y = [foo[i][1] for i in range(len(foo))]
 
+Amb slicing:
+
+foo = np.genfromtxt("dades.csv", delimiter=",", dtype=float)
+
+x = foo[:, 0]
+y = foo[:, 1]
+
 """
 
 # Exercici 3

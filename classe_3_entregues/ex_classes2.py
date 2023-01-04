@@ -21,9 +21,10 @@ un pes molecular major
 agafi dos àtoms i, segons la seva distància, et digui si poden estar enllaçats o no
 
 PISTA: Pots generar una taula amb distàncies d'enllaç típiques entre atoms.
-Pren de referència la imatge taula_bond_distance.png
+Pren de referència la imatge taula_bond_distance.png i inclou només les 
+distàncies on estigui involucrat l'àtom de carboni.
 
-Un cop s'ha calculat la distància entre àtoms, ha de dir per pantalla si
+Un cop s'ha calculada la distància entre àtoms, ha de dir per pantalla si
 poden o no estar enllaçats.
 
 (si dist_atoms < dist_enllaç -> possible)

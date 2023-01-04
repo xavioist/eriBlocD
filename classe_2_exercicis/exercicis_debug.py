@@ -1,6 +1,7 @@
 # Exercici 1
 
-""" Arregla el programa per a que faci el que se suposa que ha de fer. Copia el programa en un full nou i arregla'l.
+""" Arregla el programa per a que faci el que se suposa que ha de fer.
+Copia el programa en un full nou i arregla'l.
 """
 patients = [[70, 1.8], [80, 1.9], [150, 1.7]]
 
@@ -27,7 +28,8 @@ for patient in patients:
 
 # Exercici 2
 
-""" Arregla el programa per a que faci el que se suposa que ha de fer. Copia el programa en un full nou i arregla'l.
+""" Arregla el programa per a que faci el que se suposa que ha de fer.
+Copia el programa en un full nou i arregla'l.
 """
 
 
@@ -49,3 +51,24 @@ def minimum(mylist):
 
 
 print(minimum([1, 2, 3, 4, 5]))
+
+
+# Exercici 3
+
+""" Arregla el programa per a que faci el que se suposa que ha de fer.
+Copia el programa en un full nou i arregla'l.
+
+Tenim un diccionari amb varis noms d'autors famosos i
+l'any en que van nèixer. Ens ha de retornar el nom de l'autor i dir-nos l'any
+que van nèixer. El programa no funciona, però..."""
+
+"""authrs = {
+    "Kurt Vonnegut": "1922",
+    "Fiodor Dostoyevksi": "1846",
+    "Liu Cixin": "1963",
+    "Joan Salvat-Papasseit": "1894",
+    "Sylvia Plath":"1932"
+
+for author date in authors.items{}:
+    print (authors + " was born in " +  Date)
+}"""

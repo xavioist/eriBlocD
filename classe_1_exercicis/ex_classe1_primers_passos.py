@@ -75,3 +75,12 @@ posicions parelles de la paraula (0,2,4,...)
 """ Fes un programa que et digui si el número o la paraula que introdueixes és un palíndrom (que es llegeix igual de dreta a esquerra que de esquerra a dreta)
 i.e: "cita'l a l'atic", 1221, "pep", etc...
 """
+
+# Exercici 12
+
+""" Fes un programa que compti quantes vegades una string apareix en una frase. i.e:
+frase = "Els germans Ricca, Artur i Carles Ricca, van viatjar a l'Argentina..."
+paraula = "Ricca"
+
+output: "La paraula Ricca surt 2 cops"
+"""

@@ -33,3 +33,10 @@ persona_1 = Person("Carles", 23)
 persona_2 = Person("Sílvia", 24)
 
 persona_1.change_name("Mohammed")
+
+
+def double(x):
+    return x + x
+
+
+lambda x: x + x
