@@ -10,4 +10,10 @@ Possible requeriment de pyton 3.9
 
 # Assignment
 
-1. FER ASSIGMENT, VEURE QUÈ PODEN TOCAR PER LES CLASSES I LA DOCU DE PYTUBE
+1. Modifica les parts del codi assenyalades per tal de que el programa funcioni tal i com es vol
+
+2. Modifica el programa per a que filtri per streams i només seleccioni els mp4
+
+3. Modifica el codi per tal de que el programa llegeixi els subtítols d'un vídeo 
+
+4. Modifica el codi per a que es descarregui una llista de reproducció complerta
