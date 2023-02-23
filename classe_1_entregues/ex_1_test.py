@@ -22,13 +22,19 @@ testdata = [([1, 2, 3, 4, 5], 15), ([1, 1, 1, 1, 1], 5), ([0, 0, 0, 4, 1, 1, 6],
 # Reference function:
 
 
-def func(x):
+###INSERT STUDENT FUNCTION HERE
+
+
+def g1(x):
     if x == []:
         return 0
-    return x.pop() + func(x)
+    return x.pop() + g1(x)
 
 
-###INSERT STUDENT FUNCTION HERE
+def g2(x):
+    if x == []:
+        return 0
+    return x.pop() + g2(x)
 
 
 ##############################
@@ -36,4 +42,9 @@ def func(x):
 
 @pytest.mark.parametrize("test_X, result", testdata)
 def test_func(test_X, result):
-    assert pytest.approx(func(test_X), 0.000001) == result
+    assert pytest.approx(g1(test_X), 0.000001) == result
+
+
+@pytest.mark.parametrize("test_X, result", testdata)
+def test_func(test_X, result):
+    assert pytest.approx(g2(test_X), 0.000001) == result
