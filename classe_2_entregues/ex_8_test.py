@@ -12,17 +12,34 @@ TEST_DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 testdata = [
     ("Pop goes the weasel", "Pop"),
-    ("je je", "je"),
+    ("\tje je", "je"),
     (" trap ahead", "trap"),
+    ('"estic chill"', "estic"),
     ("benvolgut, permet-me suposar", "benvolgut"),
 ]
 
 
 def first_word(x):
     res = ""
-    forbidden = ["\n", "\t", "\b", ",", ";", ".", " "]
+    forbidden = [
+        "\n",
+        "\t",
+        "\b",
+        ",",
+        ";",
+        '"',
+        ".",
+        " ",
+        "-",
+        "--",
+        "^",
+        "$",
+        "%",
+        "/",
+        "\t\t",
+    ]
 
-    if x[0] == " ":
+    if x[0] in forbidden:
         x = x[1:]
 
     for word in x:
