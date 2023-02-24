@@ -79,8 +79,8 @@ i.e: "cita'l a l'atic", 1221, "pep", etc...
 # Exercici 12
 
 """ Fes un programa que compti quantes vegades una string apareix en una frase. i.e:
-frase = "Els germans Ricca, Artur i Carles Ricca, van viatjar a l'Argentina..."
-paraula = "Ricca"
+frase = "Els germans Bonaparte, Artur i Carles Bonaparte, van viatjar a l'Argentina..."
+paraula = "Bonaparte"
 
-output: "La paraula Ricca surt 2 cops"
+output: "La paraula Bonaparte surt 2 cops"
 """
