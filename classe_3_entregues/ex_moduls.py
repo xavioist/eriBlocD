@@ -1,8 +1,8 @@
-# Problema amb numpy, plt i d'altres
+# Problema amb numpy/pd, plt i d'altres
 
 # Exercici 1
 """ L'arxiu nile.csv conté una llista de 570 anys i el nivell de l'aigua del riu Nil
-aquell any. Carrega aquestes dades des del csv, però queda't només els anys que tinguin
+aquell any. Carrega aquestes dades des del csV (amb numpy o pandas), però queda't només els anys que tinguin
 un nivell d'aigua superior a 12.3 metres cúbics. També has de tenir en compte
 que l'arxiu té una capcelera que has d'ometre sense modificar l'arxiu.
 Tot seguit, fes un gràfic de barres en matplotlib, títols als eixos
