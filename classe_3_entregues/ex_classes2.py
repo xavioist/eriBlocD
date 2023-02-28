@@ -16,6 +16,23 @@ un pes molecular major
 - Un mètode que et retorni la distància entre dos àtoms
 """
 
+# Exercici 2
+""" Prenent de referència la classe Atom que s'ha fet, afegeix-hi un mètode que
+agafi dos àtoms i una taula de distàncies i, segons la seva distància, et digui si poden estar enllaçats o no.
+COMPTE! Un àtom de carboni i un àtom d'hel·li mai podran estar enllaçats per molt junts
+que estiguin, i això el programa ho ha de tenir en compte.
+
+PISTA: Pots generar una taula amb distàncies d'enllaç típiques entre atoms.
+Pren de referència la imatge taula_bond_distance.png i inclou només les 
+distàncies on estigui involucrat l'àtom de carboni. La taula (llista, tuple o diccionari) conté
+distàncies d'enllaç per parells d'àtoms.
+
+Un cop s'ha calculat la distància entre àtoms,retorna true si poden estar enllaçats i false
+en el cas contrari.
+
+(si dist_atoms < dist_enllaç -> possible)
+"""
+
 
 class Atom:
     def __init__(self, molec_weight, symbol, atomic_num, periodic, coords):
@@ -78,19 +95,3 @@ carboni = Atom(12.011, "C", 12, "Non Metal", [2, 2, 0])
 oxigen = Atom(15.999, "O", 16, "Non Metal", [1, 0, 1])
 
 carboni.is_bond_possible(oxigen, table)
-# Exercici 2
-""" Prenent de referència la classe Atom que s'ha fet, afegeix-hi un mètode que
-agafi dos àtoms i una taula de distàncies i, segons la seva distància, et digui si poden estar enllaçats o no.
-COMPTE! Un àtom de carboni i un àtom d'hel·li mai podran estar enllaçats per molt junts
-que estiguin, i això el programa ho ha de tenir en compte.
-
-PISTA: Pots generar una taula amb distàncies d'enllaç típiques entre atoms.
-Pren de referència la imatge taula_bond_distance.png i inclou només les 
-distàncies on estigui involucrat l'àtom de carboni. La taula (llista, tuple o diccionari) conté
-distàncies d'enllaç per parells d'àtoms.
-
-Un cop s'ha calculat la distància entre àtoms,retorna true si poden estar enllaçats i false
-en el cas contrari.
-
-(si dist_atoms < dist_enllaç -> possible)
-"""
