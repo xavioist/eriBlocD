@@ -58,6 +58,22 @@ PISTA: recorda que els elements d'una llista es poden accedir mitjançant un ín
 llista = [1,2,3,4,"cinc"] -> llista[4] = "cinc"
 """
 
+# Exercici 3.1
+"""  El "slicing" és una manera d'agafar determinats valors d'una llista de python.
+La seva sintaxi és my_list[inici:final:increment]. Es compta l'inici, però no
+el final. 
+
+documentació: https://www.geeksforgeeks.org/python-list-slicing/
+
+i.e: mylist = [1,2,3,4,5,6,7,8,9]
+newlist = mylist[2:4] -> [3,4]
+newlist2 = mylist[:7:2] -> [1,3,5,7] (pots deixar índexs en blanc)
+newlist3 = mylist[1:-3] -> [2,3,4,5,6] (també compta amb índex negatius)
+
+myword = "abcdefghijk"
+new_word = myword[3:8] -> "defgh"
+"""
+
 # Exercici 4
 """ La funció standard de python range() ens permet obtenir un rang de nombres separats
 per un interaval fix. Comprova com funciona la funció range() fent-la servir dins un bucle
