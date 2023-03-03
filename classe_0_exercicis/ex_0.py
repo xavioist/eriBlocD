@@ -74,6 +74,19 @@ myword = "abcdefghijk"
 new_word = myword[3:8] -> "defgh"
 """
 
+# Exercici 3.2
+""" Les llistes a python tenen un mètode que es diu append() que afegeix un element
+al final d'una llista. El mètode pop() el·limina un element d'una llista.
+
+Mira com funcionen aquests mètodes i com s'apliquen a les llistes.
+
+i.e: mylist = [1,2,3,4]
+mylist.append(5) 
+print(mylist) -> [1,2,3,4,5]
+mylist.pop(1)
+print(mylist) -> [1,3,4,5]
+"""
+
 # Exercici 4
 """ La funció standard de python range() ens permet obtenir un rang de nombres separats
 per un interaval fix. Comprova com funciona la funció range() fent-la servir dins un bucle
