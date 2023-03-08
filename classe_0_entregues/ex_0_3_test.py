@@ -2,7 +2,8 @@
 
 Fes una funció func(num1, num2) que, donats dos nombres enters positius,
 retorni el seu producte si aquest és més gran que 100 i que si no, retorni
-la seva suma
+la seva suma.
+
 """
 
 

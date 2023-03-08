@@ -10,7 +10,7 @@ Fes una funció generator(var1, var2) que, donades var1 i var2, sigui capaç de 
 
 var3 = [66, "foo", 132, "ar"]
 
-PISTA: Fer servir el slicing de llistes i strings i el mètode append() de les llistes 
+PISTA: Pots fer servir el slicing de llistes i strings i el mètode append() de les llistes 
 """
 
 var1 = 66
