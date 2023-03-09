@@ -1,6 +1,7 @@
 import pandas as pd
 from bs4 import BeautifulSoup
 import numpy as np
+import requests
 
 
 def get_thermo_info(material):
@@ -24,7 +25,7 @@ def get_thermo_info(material):
     # Establish URL to be scraped (SI = SI units TG = Gas Phase Thermodynamics)
     url = f"https://webbook.nist.gov/cgi/cbook.cgi?Name={mat_corr}&Units=SI&cTG=on"
     # Request the URL and parse it as raw text
-    raw_html = get(url).text
+    raw_html = requests.get(url).text
     # Initiate Beautiful Soup to read the raw html data
     soup = BeautifulSoup(raw_html, "html.parser")
     # Initiate dataframe to contain query results
@@ -40,7 +41,7 @@ def get_thermo_info(material):
     # Get the rows present in the table
     rows = table.findAll("tr")
     # Make dataframe to contain query results
-    df = pd.DataFrame(columns=["Quantity", "Value", "Units"])
+    # df = pd.DataFrame(columns=["Quantity", "Value", "Units"])
 
     # Get info for each row in table
     data = []
@@ -52,9 +53,22 @@ def get_thermo_info(material):
 
     # Save the results into these variables and place them into the dataframe
     quantity = data[0][0]  # This is the value I want
+
     value = data[0][1].split("±", 1)[0].rstrip()  # Remove uncertainty in measurement
+
     units = data[0][2]  # These are the units. Usually in kj/mol
-    df = df.append(
-        {"Quantity": quantity, "Value": value, "Units": units}, ignore_index=True
-    )
+
+    df1 = pd.DataFrame(["Quantity", quantity])
+
+    df2 = pd.DataFrame(["Value", value])
+
+    df3 = pd.DataFrame(["Units", units])
+
+    df = pd.concat([df1, df2, df3], axis=1, ignore_index=True)
+
     return df
+
+
+material = "1,1,1,2-Tetrachloroethane"
+df = get_thermo_info(material)
+print(df)
