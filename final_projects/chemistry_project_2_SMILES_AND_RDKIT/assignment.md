@@ -7,3 +7,4 @@ Busqueu informació sobre els codis SMILES: què són, com funcionen i per a qu�
 2. En aquesta pàgina trobareu documentació de RDKIT on es fa servir el codi SMILES per a generar les estructures moleculars de partida. (https://www.rdkit.org/docs/Cookbook.html). Busqueu el codi SMILES (SMILES canònic) de la glucosa i genereu un objecte "mol" de RDKIT a partir del seu SMILES. Un cop el tingueu, feu un programa que us permeti identificar els seus centres quirals. Quants centres quirals té? A què es deu aquest resultat? Agafeu ara el SMILES de la beta-D-glucopiranosa i compareu-los.
 
 3. RDKIT ens permet iterar sobre tots els àtoms d'una molècula. Per cada àtom de la glucosa de l'exercici anterior, troba la manera d'iterar sobre els seus àtoms i obtenir el símbol del seu element i el índex de cadascún d'ells. Un cop estiguis, guarda la teva molècula en forma de fitxer PDB.
+
