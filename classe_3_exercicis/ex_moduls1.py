@@ -67,3 +67,21 @@ Juga amb el tipus de gràfic que pots fer.
 
 PISTA: https://www.w3schools.com/python/matplotlib_subplot.asp
 """
+
+# Exercici 7
+
+""" Pandas té els DataFrames, que són estructures de dades molt potents per a manipular arxius csv i similars.
+En un arxiu csv a vegades hi ha un "header", una línea inicial d'informació que només aporta context i no compta com a dades.
+Els headers són útils per nosaltres perquè ens diuen quin tipus de dades estem tractant (mireu, per exemple, la primera fila del deniro.csv on ens
+dona informació sobre el tipus de dades de cada columna). Feu servir pandas per a carregar l'arxiu deniro.csv i convertir-lo en un dataframe
+sense tenir en compte el header amb read_csv() COMPTE! Alguns csv poden donar problemes ja que no estan ben formatats. Per sort, pandas ens
+proporciona moltes maneres de, sense alterar el csv, poder-lo carregar corrctament. Doneu un cop d'ull a l'argument "usecols" de read_csv().
+"""
+
+# Exercici 8
+
+""" Pandas també et permet fer servir Series, una estructura de dades que converteix les llistes en arrays uni-dimensionals indexats.
+És més fàcil veure què són amb un exemple: donades la string i la llista str = 'abcdefgh' num = [1,2,3,4,5,6,7,8] convertiu-les cadascuna a una sèrie de pandas.
+fent servir la funció Series. PISTA: Comenceu per la llista num. Per a str heu d'obtenir un resultat similar: teniu una string i l'heu de convertir a llista.
+
+"""
