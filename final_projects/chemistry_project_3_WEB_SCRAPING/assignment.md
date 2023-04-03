@@ -26,5 +26,5 @@ if __name__ == "__main__":
     return
 
 Això vol dir que podem escriure vàries funcions i, segons el que ens convingui, fer-les servir d'una manera o d'una altra.
-Busqueu informació de com funciona aquesta intrucció (aquí per exemple) https://realpython.com/if-name-main-python/ . Modifiqueu el programa per a que faci queries de 10 elements diferents i guardi en un diccionari el nom de l'element i la seva entalpia de formació. 
+Busqueu informació de com funciona aquesta intrucció (aquí per exemple https://realpython.com/if-name-main-python/). Modifiqueu el programa per a que faci queries de 10 elements diferents i guardi en un diccionari el nom de l'element i la seva entalpia de formació. 
 
