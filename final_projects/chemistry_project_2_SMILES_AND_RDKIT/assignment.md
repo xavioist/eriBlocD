@@ -8,3 +8,5 @@ Busqueu informació sobre els codis SMILES: què són, com funcionen i per a qu�
 
 3. RDKIT ens permet iterar sobre tots els àtoms d'una molècula. Per cada àtom de la glucosa de l'exercici anterior, troba la manera d'iterar sobre els seus àtoms i obtenir el símbol del seu element i el índex de cadascún d'ells. Un cop estiguis, guarda la teva molècula en forma de fitxer PDB.
 
+4. 
+

@@ -34,14 +34,14 @@ def get_thermo_info(material):
     try:
         table = soup.find("table", attrs={"aria-label": "One dimensional data"})
     except:  # Table doesn't exist. Not all compounds have desired thermodynamic info.
+        print("Except bloc executed. Table does not exist. Exiting.")
         df = df.append(
             {"Quantity": np.nan, "Value": np.nan, "Units": np.nan}, ignore_index=True
         )
         return 0
     # Get the rows present in the table
+
     rows = table.findAll("tr")
-    # Make dataframe to contain query results
-    # df = pd.DataFrame(columns=["Quantity", "Value", "Units"])
 
     # Get info for each row in table
     data = []
@@ -64,11 +64,24 @@ def get_thermo_info(material):
 
     df3 = pd.DataFrame(["Units", units])
 
-    df = pd.concat([df1, df2, df3], axis=1, ignore_index=True)
+    df = pd.concat([df1, df2, df3], axis=1, ignore_index=True)  # FALTA AQUESTA LINEA
 
     return df
 
 
-material = "1,1,1,2-Tetrachloroethane"
+material = "2,4,6-trinitrotoluene"
 df = get_thermo_info(material)
 print(df)
+
+""" material = "2,4,6-trinitrotoluene"
+    df = get_thermo_info(material)
+    print(df)"""
+
+"""if __name__ == "__main__":
+    materials = ["2,4,6-trinitrotoluene", "methane", "ethane"]
+    enthalp = {}
+    for material in materials:
+        df = get_thermo_info(material)
+        enthalp[material] = df[1][1]
+        # print(df)
+    print(enthalp)"""
