@@ -86,11 +86,17 @@ proporciona moltes maneres de, sense alterar el csv, poder-lo carregar corrctame
 """ Pandas també et permet fer servir Series, una estructura de dades que converteix les llistes en arrays uni-dimensionals indexats.
 És més fàcil veure què són amb un exemple: donades la string i la llista str = 'abcdefgh' num = [1,2,3,4,5,6,7,8] convertiu-les cadascuna a una sèrie de pandas.
 fent servir la funció Series. PISTA: Comenceu per la llista num. 
-Per a "str", heu d'obtenir un resultat similar: teniu una string i l'heu de convertir a llista per a que la sèrie ho entengui.
+Per a "str", heu d'obtenir un resultat similar: teniu una string i l'heu de convertir a llista perquè la sèrie ho entengui.
 """
 
 
 # Exercici 9
 
-""" https://pandas.pydata.org/docs/reference/api/pandas.Series.html#
+""" Prenent les dades de faithful.csv fes una gràfica amb les seves erupcions vs el temps que van durar. Carrega les dades del csv amb pandas
+i fes el gràfic amb matplotlib com creguis convenient. Posa títols als eixos de les X i les Y i un títol general per al gràfic.
+"""
+
+# Exercici 10
+
+""" Carrega les dades de faithful.csv i troba el valor mitjà del temps d'espera entre erupcions. PISTA: Fes servir els mètodes dels DataFrames
 """
