@@ -8,5 +8,3 @@ per tal que funcioni.
 3. Aquest programa inclou una GUI. Què és una GUI i per a què serveixen?
 
 4. Explica detalladament què fa la funció modify_pix()
-
-5. 
