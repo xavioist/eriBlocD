@@ -114,7 +114,7 @@ for n in (...):
 
 # Exercici 6
 """ Fes una funció o un petit programa que, donada una paraula, et digui
-quantes lletres té per pantalla.
+quantes lletres té.
 
 """
 
