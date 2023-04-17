@@ -7,7 +7,8 @@ Documentation:
 
 1. Una query és una petició d'informació que es realitza generalment sobre pàgines web. Python ens permet comunicar-nos amb pàgines web i obtenir informació que estigui gaurdada online per a fer-la servir en els nostres programes. Una part molt important de les queries són les expressions regulars (RegEx o Regular Expressions). Busca informació sobre què són les regular expressions i explica perquè es fan servir. Explica també com estan integrades a Python. PISTA: Hi ha un mòdul específic de Python que conté regular expressions. Busca informació també sobre què són els codis HEX i el ASCII i per què es fan servir en programació.
 
-2. Expliqueu amb les vostres paraules què fa el codi, bloc per bloc. 
+2. Torna a escriure el programa amb pseudocodi i comenta què fa cada apartat del programa
+
 
 3. El codi tal i com s'ha entregat està incomplert i no funciona correctament. Quan fem la query ens retorna un dataframe buit tot i que el programa és capaç d'obtenir els valors que li hem demanat:
 

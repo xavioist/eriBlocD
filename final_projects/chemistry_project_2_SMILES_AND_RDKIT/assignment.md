@@ -13,3 +13,4 @@ Busqueu informació sobre els codis SMILES: què són, com funcionen i per a qu�
 - Calculi les càrregues Gasteiger de cada àtom de la molècula (càrregues elèctriques parcials).
 - Guardi la molècula en format .mol.
 
+5. Torna a escriure el programa amb pseudocodi i comenta què fa cada apartat del programa

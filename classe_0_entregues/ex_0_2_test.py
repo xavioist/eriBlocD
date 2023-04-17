@@ -1,10 +1,10 @@
 """Ex_0.2
 
-Fes una funció check() que, donat qualsevol nombre enter positiu menor o igual a 50,
+Fes una funció check(numero) que, donat qualsevol nombre enter positiu menor o igual a 50,
 digui si és parell i divisible per 7. Si no ho és, que digui només si és
 parell o divisible per 7
 
-Fes una altra funció resta() que et digui quants cops se li pot restar 3 abans de que el nombre
+Fes una altra funció resta(numero) que et digui quants cops se li pot restar 3 abans de que el nombre
 esdevingui 0 o negatiu.
 """
 

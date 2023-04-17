@@ -150,7 +150,7 @@ si has gastat més del compte o no.
 """
 
 # Exercici 9
-""" Agafant el pseudocodi de l'exercici 7 i un diccionari com a element d'entrada, transforma-ho en
+""" Agafant el pseudocodi de l'exercici 8 i un diccionari com a element d'entrada, transforma-ho en
 un programa de python.
 
 i.e:
