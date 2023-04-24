@@ -28,6 +28,13 @@ def g1(x):
     return x.pop() + g1(x)
 
 
+def sem(x):
+    counter = 0
+    while x != []:
+        counter += x.pop()
+    return counter
+
+
 ##############################
 
 
