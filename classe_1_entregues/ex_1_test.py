@@ -4,8 +4,6 @@ import pytest
 """Test ex_01: Fes una funció suma(x) que sumi tots els elements d'una llista ***sense fer servir loops for***
 ni funcions que no estiguin al paquet estàndard de python (exceptuant la funció sum()).
 
-    https://cs.famaf.unc.edu.ar/~hoffmann/pd18/martes23.html
-
     Returns:
         func([1,2,3]) -> 6
         
