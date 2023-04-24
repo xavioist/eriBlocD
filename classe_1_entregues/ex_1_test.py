@@ -2,7 +2,7 @@ import os
 import pytest
 
 """Test ex_01: Fes una funció suma(x) que sumi tots els elements d'una llista ***sense fer servir loops for***
-ni funcions que no estiguin al paquet estàndard de python (exceptuant la funció sum()).
+ni funcions que no estiguin al paquet estàndard de python (tampoc pots fer servir la funció sum()).
 
     Returns:
         func([1,2,3]) -> 6
