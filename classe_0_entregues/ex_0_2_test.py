@@ -8,7 +8,7 @@ Fes una altra funció resta(numero) que et digui quants cops se li pot restar 3 
 esdevingui negatiu.
 """
 
-i = 8
+i = 9
 
 
 def check(i):
@@ -27,7 +27,7 @@ def check(i):
 
 def resta(i):
     counter = 0
-    while i > 0:
+    while i > 0 and (i - 3) >= 0:
         counter += 1
         i -= 3
 
