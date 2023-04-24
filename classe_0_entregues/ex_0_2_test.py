@@ -5,10 +5,10 @@ digui si és parell i divisible per 7. Si no ho és, que imprimeixi per pantalla
 parell, divisible per 7 o cap de les opcions anteriors.
 
 Fes una altra funció resta(numero) que et digui quants cops se li pot restar 3 abans de que el nombre
-esdevingui 0 o negatiu.
+esdevingui negatiu.
 """
 
-i = 21
+i = 8
 
 
 def check(i):
