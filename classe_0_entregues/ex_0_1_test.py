@@ -5,10 +5,16 @@ var1 = "66"
 
 var2 = "foo bar baz"
 
-
-Fes una funció generator(var1, var2) que, donades var1 i var2, sigui capaç de generar var3
+Fes una funció generator(var1, var2) que, donades var1 i var2, sigui capaç de generar var3 només a partir de var1 i var2.
 
 var3 = ["66", "foo bar baz", "bar"]
+
+Un altre exemple d'execució podria ser:
+
+var1 = "hola"
+var2 = "com vas pep"
+
+donaria com a resultat: var3 = ["hola", "com vas pep", "vas"]
 
 PISTA: Pots fer servir mètode append() de les llistes i el slicing de llistes de python: https://www.w3schools.com/python/python_strings_slicing.asp
 """
