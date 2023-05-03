@@ -1,11 +1,12 @@
 """Ex 0.1
-Defineix dues variables:
+Donades aquestes dues variables:
 
 var1 = "66"
 
 var2 = "foo bar baz"
 
-Fes una funció generator(var1, var2) que, donades var1 i var2, sigui capaç de generar var3 només a partir de var1 i var2.
+Fes una funció generator(var1, var2) que sigui capaç de generar var3 només a partir de var1 i var2.
+Mira la pista del final de l'enunciat i ajuda't dels mètodes descrits per a fer l'exercici.
 
 var3 = ["66", "foo bar baz", "bar"]
 
